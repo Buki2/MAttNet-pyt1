@@ -171,3 +171,8 @@ CUDA_VISIBLE_DEVICES=GPU_ID python tools/extract_mrcn_det_feats.py --dataset ref
 ./experiments/scripts/eval_easy.sh GPU_ID refcoco unc
 ./experiments/scripts/eval_dets.sh GPU_ID refcoco unc
 ```
+
+## Contribution
+Yuqi Bu
+
+Xin Wu
