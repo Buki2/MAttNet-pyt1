@@ -102,6 +102,9 @@ pip install tensorboardX
 runipy cv/mrcn_detection.ipynb
 ```
 
+The pre-trained model *res101_mask_rcnn_iter_1250000.pth* can be found at <http://bvision.cs.unc.edu/licheng/MattNet/pytorch_mask_rcnn/res101_mask_rcnn_iter_1250k.zip> (Please refer to <https://github.com/lichengunc/mask-faster-rcnn> for details.)   
+The annotations *instances_minival2014.json* can be found at <https://dl.dropboxusercontent.com/s/s3tw5zcg7395368/instances_valminusminival2014.json.zip?dl=0> (Please refer to <https://github.com/rbgirshick/py-faster-rcnn/blob/master/data/README.md> for details.)
+
 4. Prepare the submodule *refer-parser2*
 
 (Please refer to <https://github.com/lichengunc/refer-parser2> for details.)
