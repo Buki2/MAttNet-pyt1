@@ -102,6 +102,9 @@ pip install tensorboardX
 runipy cv/mrcn_detection.ipynb
 ```
 
+The pre-trained model *res101_mask_rcnn_iter_1250000.pth* can be found at <http://bvision.cs.unc.edu/licheng/MattNet/pytorch_mask_rcnn/res101_mask_rcnn_iter_1250k.zip> (Please refer to <https://github.com/lichengunc/mask-faster-rcnn> for details.)   
+The annotations *instances_minival2014.json* can be found at <https://dl.dropboxusercontent.com/s/o43o90bna78omob/instances_minival2014.json.zip?dl=0> (Please refer to <https://github.com/rbgirshick/py-faster-rcnn/blob/master/data/README.md> for details.)
+
 4. Prepare the submodule *refer-parser2*
 
 (Please refer to <https://github.com/lichengunc/refer-parser2> for details.)
@@ -171,3 +174,8 @@ CUDA_VISIBLE_DEVICES=GPU_ID python tools/extract_mrcn_det_feats.py --dataset ref
 ./experiments/scripts/eval_easy.sh GPU_ID refcoco unc
 ./experiments/scripts/eval_dets.sh GPU_ID refcoco unc
 ```
+
+## Contribution
+Yuqi Bu
+
+Xin Wu
